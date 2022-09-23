@@ -1,0 +1,3 @@
+I, [2022-09-23T17:06:56.343025 #26873]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.3.2)
+I, [2022-09-23T17:06:59.028731 #26873]  INFO -- Kitchen: -----> Verifying <kt-suite-terraform>...
+I, [2022-09-23T17:07:07.844522 #26873]  INFO -- Kitchen: -----> Test Kitchen is finished. (0m11.50s)

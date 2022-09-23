@@ -16,7 +16,8 @@ resource "null_resource" "create_file" {
 resource "google_compute_instance" "test-instance" {
   name         = "apurv-instance-1"
   machine_type = "e2-medium"
-  project = "searce-playground-v1"
+  project      = "panw-355016"
+  zone         = "us-central1-a"
 
 
 
@@ -27,13 +28,11 @@ resource "google_compute_instance" "test-instance" {
   }
 
   network_interface {
-    network = "abhimanyu-shahi-vpc-terra"
-    subnetwork = "secondary-subnet"
+    network = "default"
 
     access_config {
-      // Ephemeral public IP
+      // Ephemeral IP
     }
-
   }
 }
 #  labels = {
